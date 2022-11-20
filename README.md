@@ -10,7 +10,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Admin webook boilerplate</h3>
+<h3 align="center">Admit webook boilerplate</h3>
 
   <p align="center">
   	A boilerplate go library that contains some common code to create an admission webhook.
@@ -47,7 +47,6 @@ A boilerplate go library that contains some common code to create an admission w
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ### Built With
 
 * [![Go][go.mod]][go.mod-url]
@@ -57,9 +56,7 @@ A boilerplate go library that contains some common code to create an admission w
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+...TO DO...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,17 +67,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/dual-lab/admit-webook-boilerplate](https://github.com/dual-lab/admit-webook-boilerplate)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -97,9 +89,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/dual-lab/admit-webook-boilerplate.svg?style=for-the-badge
 [forks-url]: https://github.com/dual-lab/admit-webook-boilerplate/network/members
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/dual-lab/admit-webook-boilerplate/blob/main/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/dual-lab/admit-webook-boilerplate.svg?style=for-the-badge
+[license-url]: https://github.com/dual-lab/admit-webook-boilerplate/blob/main/LICENSE
 [go.mod]: https://img.shields.io/github/go-mod/go-version/dual-lab/admit-webook-boilerplate/main?filename=go.mod
 [go.mod-url]: https://pkg.go.dev/golang.org/x/mod
