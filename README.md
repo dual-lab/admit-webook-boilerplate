@@ -93,5 +93,5 @@ Project Link: [https://github.com/dual-lab/admit-webook-boilerplate](https://git
 [forks-url]: https://github.com/dual-lab/admit-webook-boilerplate/network/members
 [license-shield]: https://img.shields.io/github/license/dual-lab/admit-webook-boilerplate.svg?style=for-the-badge
 [license-url]: https://github.com/dual-lab/admit-webook-boilerplate/blob/main/LICENSE
-[go.mod]: https://img.shields.io/github/go-mod/go-version/dual-lab/admit-webook-boilerplate/main?filename=go.mod
+[go.mod]: https://img.shields.io/github/go-mod/go-version/dual-lab/admit-webook-boilerplate?filename=go.mod
 [go.mod-url]: https://pkg.go.dev/golang.org/x/mod
