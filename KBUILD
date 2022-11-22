@@ -1,0 +1,42 @@
+#  ############################################################################# #
+#  Author       : dmike
+#  Date         : 2,October 2016
+#  Description  : Principal Make file
+#
+#  Default KBUILD file that does not define only the language variable.
+#  Setting it to 'cc'.
+#
+#  ############################################################################# #
+languages := golang
+install_language :=
+mode := color_
+debug := @
+
+src_root := pkg/
+dep_root := $(empty)
+
+# ############################################################################## #
+# Plugin variables definition
+# ############################################################################## #
+mod_name := github.com/dual-lab/admit-webook-boilerplate
+
+export mod_name
+
+#  ############################################################################# #
+#  Command definition.
+#  ############################################################################# #
+CC := gcc
+LD := ld
+RM := rm
+MV := mv
+MKDIR:= mkdir
+AR:= ar
+RANLIB:= ranlib
+DOCKER:= docker
+GIT:= git
+GO:= go
+INSMOD := insmod
+RMMOD := rmmod
+ASM := yasm
+
+export CC LD RM MKDIR AR RANLIB DOCKER GIT GO INSMOD RMMOD ASM
