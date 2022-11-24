@@ -1,0 +1,1 @@
+src := doc.go schema.go
