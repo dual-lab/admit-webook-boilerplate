@@ -1,1 +1,1 @@
-src := doc.go schema.go
+src := doc.go schema.go handler.go convert.go
