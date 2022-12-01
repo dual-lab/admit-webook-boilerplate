@@ -4,9 +4,9 @@ run-name: ${{ github.actor }} is building admit-webhook-boilerplate
 on:
   push:
     tags:
-  	- "v*"
+      - "v*"
     paths:
-    - "pkg/Makefile"
+      - "pkg/Makefile"
 
 jobs:
   make:
