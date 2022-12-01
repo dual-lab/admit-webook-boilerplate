@@ -1,0 +1,31 @@
+name: admit-webhook-boilerplate/main
+run-name: ${{ github.actor }} is building admit-webhook-boilerplate
+
+on:
+	push:
+		tags:
+			- "v*"
+		paths:
+			- "pkg/Makefile"
+
+jobs:
+	make:
+		name: Build and release
+		run-on: ${{matrix.os}}
+		strategy:
+			matrix:
+				os: [ ubuntu-22.04 ]
+				go: [1.18]
+		steps:
+			# Checkout step
+			- name: checkout repo
+				uses: actions/checkout@v3
+			- name: setup gp
+				uses: actions/setup-go@v3
+				with:
+					go-version: ${{matrix.go}}
+			- name: build
+				run: make build
+			- name: create release
+				uses: softprops/action-gh-release@v1
+				if: startsWith(github.ref, 'refs/tags/')
