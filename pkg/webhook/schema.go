@@ -10,7 +10,7 @@ import (
 )
 
 var scheme = runtime.NewScheme()
-var codecs = serializer.NewCodecFactory(scheme)
+var Codecs = serializer.NewCodecFactory(scheme)
 
 func init() {
   addToScheme(scheme)

@@ -34,7 +34,7 @@ include $(root)/scripts/include.mk
 #   deps -> possible project dependencies
 # ============================================================================ #
 -include $(marker)/Makefile
-obj_main := $(patsubst %.go,%.o,$(src))
+obj_main := $(addsuffix .o,$(notdir $(marker)))
 obj_main_clean:= $(clean_files)
 obj_main_dirs := $(dirs)
 obj_main_dirs += $(filter-out $(dirs),$(libs))
