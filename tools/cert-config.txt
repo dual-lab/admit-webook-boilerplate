@@ -20,7 +20,7 @@ postalCode             = "00176"	                    # L/postalcode=
 streetAddress          = "Via Prenstina 22"           # L/street=
 organizationName       = "dual-lab"		                # O=
 organizationalUnitName = "Research Department"        # OU=
-commonName             = "dualab-rek3s.duckdns.org"   # CN=
+commonName             = "<service-name>.<namespace>.svc"   # CN=
 emailAddress           = "dual-lab@yandex.com"        # CN/emailAddress=
 
 # req_extensions
@@ -28,4 +28,9 @@ emailAddress           = "dual-lab@yandex.com"        # CN/emailAddress=
 # The subject alternative name extension allows various literal values to be
 # included in the configuration file
 # http://www.openssl.org/docs/apps/x509v3_config.html
-subjectAltName  = DNS:www.dualab-rek3s.duckdns.org # multidomain certificate
+subjectAltName  = @alt_names # multidomain certificate
+
+[ alt_names ]
+DNS.1 = <service-name>
+DNS.2 = <service-name>.<namespace>
+DNS.3 = <service-name>.<namespace>.svc
